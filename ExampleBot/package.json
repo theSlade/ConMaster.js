@@ -1,0 +1,17 @@
+{
+  "name": "ExampleBot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "conmaster.js": "^1.1.0",
+    "discord.js": "^12.5.3",
+    "mtriz": "^1.1.0"
+  }
+}
