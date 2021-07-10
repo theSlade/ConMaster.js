@@ -1,6 +1,6 @@
 // Data
-const color = require("./data/colors.json");
-const emoji = require("./data/emojis.json");
+const color = require("./src/data/colors.json");
+const emoji = require("./src/data/emojis.json");
 
 // DB
 module.exports.conmasterDB = require("./src/db/mongoDB");
