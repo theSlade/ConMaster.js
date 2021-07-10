@@ -2,7 +2,6 @@ require("dotenv").config();
 const { Client, MessageEmbed } = require("discord.js");
 const { color, emoji } = require("conmaster.js");
 const bot = new Client();
-const words = ["Fuck", "Pussy", "Bitch", "fuck", "tissemand", "dick"]
 
 function ready() {
   console.log("Ready!")
@@ -10,7 +9,7 @@ function ready() {
 
 bot.on("ready", () => {
   ready();
-  bot.user.setActivity("https://npmjs.com/conmaster.js", { type: "PLAYING" })
+  bot.user.setActivity("https://npmjs.com/conmaster.js")
 })
 
 bot.on("message", (message) => {
@@ -20,10 +19,12 @@ bot.on("message", (message) => {
         .setDescription(`${emoji.love2} Hello there!`)
         .setColor(color.DarkBlue)
     );
-  } if (message.content.includes(`${words}`)) {
+  } if (message.content.includes("sej")) {
      message.delete()
      message.channel.send(`${emoji.laughing2} Slettede din bedsked!`)
   }
 });
+
+
 
 bot.login(process.env.TOKEN);

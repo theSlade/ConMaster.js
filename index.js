@@ -10,6 +10,9 @@ module.exports.Schema = require("./src/db/Schema");
 const passGen = require("./src/functions/passGen");
 const ms = require("./src/functions/ms");
 
+// Classes
+module.exports.sussybaka = require("./src/class/sussybaka")
+
 // Exports
 module.exports = {
   color,
