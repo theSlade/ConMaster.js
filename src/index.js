@@ -1,1 +1,1 @@
-// Update is on the way!
+module.exports.conmasterDB = require("../src/functions/mongoDB");
