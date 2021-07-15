@@ -1,0 +1,30 @@
+{
+  "name": "conmaster.js",
+  "version": "1.4.7",
+  "description": "A simple package for discord.js",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theSlade/ConMaster.js.git"
+  },
+  "keywords": [
+    "JS",
+    "discord.js"
+  ],
+  "author": "Vapti And MrDev",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theSlade/ConMaster.js/issues"
+  },
+  "homepage": "https://github.com/theSlade/ConMaster.js#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "moment": "^2.29.1"
+  }
+}
